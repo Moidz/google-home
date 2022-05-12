@@ -11,3 +11,45 @@ nav {
     padding-top: 1em;
     justify-content: space-around;
 }
+
+main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#google{
+    width: 45%;
+}
+
+main .search{
+    margin-top: 12px;
+}
+main i{
+    color: rgb(167, 166, 166);
+    border: 1px rgb(214, 214, 214) solid;
+    padding: 0.95em 0em 1em 1.2em;
+    border-right: none;
+    position: relative;
+    left: 0.25em;
+    border-radius: 50% 0% 0% 50%;
+}
+main input{
+    width: 75%;
+    padding: 14px;
+    font: 1em sans-serif;
+    border: 1px rgb(214, 214, 214) solid;
+    border-left: none;
+    border-right: none;
+}
+main a img{
+    position: relative;
+    top: 0.35em;
+}
+main a{
+    border: 1px rgb(214, 214, 214) solid;
+    padding: 0.95em 1.2em 0.95em 0em;
+    border-left: none;
+    border-radius: 0% 50% 50% 0%;
+    position: relative;
+    right: 0.25em;
+}
