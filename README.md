@@ -6,6 +6,10 @@ This is my trial on the google home page.
 It does not have the google account profile picture account at the top right edge and the icon/image in the footer of the original google home page.
 It does not have a live link yet.
 
+Languages:
+-HTML
+-CSS
+
 Here is how it looks like
 
 
