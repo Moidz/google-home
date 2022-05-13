@@ -1,15 +1,21 @@
+body{
+   font-family: sans-serif; 
+}
+
 #googleapp{
     width: 25px;
     height: 25px;
     position: relative;
-    bottom: 0.2em;
+    bottom: 0.3em;
 }
+
 nav {
     display: flex;
     width: 150px;
     margin-left: 84%;
     padding-top: 1em;
     justify-content: space-around;
+    font-size: 13px;
 }
 
 main{
@@ -17,39 +23,74 @@ main{
     margin: auto;
     text-align: center;
 }
+
 #google{
     width: 45%;
 }
 
 main .search{
+    width: 100%;
     margin-top: 12px;
+    border: 1px rgb(223, 221, 221) solid;
+    justify-content: space-around;
+    border-radius: 50px;
+    box-sizing: border-box;
 }
+
 main i{
     color: rgb(167, 166, 166);
-    border: 1px rgb(214, 214, 214) solid;
-    padding: 0.95em 0em 1em 1.2em;
-    border-right: none;
-    position: relative;
-    left: 0.25em;
-    border-radius: 50% 0% 0% 50%;
 }
+
 main input{
-    width: 75%;
+    width: 85%;
     padding: 14px;
-    font: 1em sans-serif;
-    border: 1px rgb(214, 214, 214) solid;
-    border-left: none;
-    border-right: none;
+    margin: 0px 8px 0px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(105, 104, 104);
 }
+
+main .search:hover{
+    box-shadow: 0px 1px 4px 1px rgba(167, 166, 166, 0.4);
+}
+
 main a img{
     position: relative;
-    top: 0.35em;
+    top: 6px;
 }
-main a{
-    border: 1px rgb(214, 214, 214) solid;
-    padding: 0.95em 1.2em 0.95em 0em;
-    border-left: none;
-    border-radius: 0% 50% 50% 0%;
-    position: relative;
-    right: 0.25em;
+
+main .btns{
+    margin-top: 25px;
+}
+main .btns button{
+    margin: 4px;
+    padding: 10px 16px;
+    color: rgb(69, 70, 70);
+    background-color: rgb(248, 248, 252);
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+main .btns button:hover{
+    box-shadow: 0px 0px 1px 1px rgba(167, 166, 166, 0.5);
+}
+main .btns button:active{
+    border: 1px blue solid;
+}
+
+main p{
+    color: rgb(69, 70, 70);
+    font-size: 13px;
+    margin-top: 28px;
+}
+main p a{
+    margin-left: 9px;
+    color: rgb(35, 35, 175);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
