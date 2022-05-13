@@ -1,5 +1,7 @@
 body{
-   font-family: sans-serif; 
+   font-family: sans-serif;
+   margin: 0px;
+   padding: 0px;
 }
 
 #googleapp{
@@ -13,18 +15,24 @@ nav {
     display: flex;
     width: 150px;
     margin-left: 84%;
-    padding-top: 1em;
+    padding-top: 1.5em;
     justify-content: space-around;
     font-size: 13px;
 }
 
+nav a{
+    color: black;
+}
+
 main{
     width: 50%;
+    height: 500px;
     margin: auto;
     text-align: center;
 }
 
 #google{
+    margin-top: 1em;
     width: 45%;
 }
 
@@ -93,4 +101,28 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+footer, footer .bottom a{
+    background-color: rgb(243, 243, 243);
+    color: rgb(104, 103, 103);
+}
+
+footer p{
+    padding: 16px 0px 16px 30px;
+    border-bottom: 1px rgba(104, 103, 103, 0.2) solid;
+}
+footer .bottom{
+    display: flex;
+    padding-left: 10px;
+    font-size: 14px;
+}
+footer .bottom .left a{
+    padding-left: 20px;
+}
+footer .bottom .center{
+    align-self: center;
+    margin: 0px 340px 0px 180px;
+}
+footer .bottom .right a{
+    padding-right: 30px;
 }
